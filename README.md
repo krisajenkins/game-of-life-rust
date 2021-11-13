@@ -7,3 +7,7 @@
 ```sh
 cargo run
 ```
+
+## Disclaimer
+
+I'm no Rust expert, but this compiles so it must work, right? 
