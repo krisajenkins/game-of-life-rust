@@ -65,7 +65,7 @@ fn iterate(x_max: i16, y_max: i16, old_world: &HashSet<(i16, i16)>) -> HashSet<(
                 (0, 1),
                 (1, 1),
             ] {
-                if (x + dx) >= 0 && (y + dy) >= 0 && old_world.contains(&(x + dx, y + dy)) {
+                if old_world.contains(&(x + dx, y + dy)) {
                     n = n + 1;
                 }
             }
