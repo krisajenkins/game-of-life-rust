@@ -44,7 +44,7 @@ fn display(
                 print!(" ");
             }
         }
-        println!("");
+        println!();
     }
 }
 
@@ -66,7 +66,7 @@ fn iterate(x_max: i16, y_max: i16, old_world: &HashSet<(i16, i16)>) -> HashSet<(
                 (1, 1),
             ] {
                 if old_world.contains(&(x + dx, y + dy)) {
-                    n = n + 1;
+                    n += 1;
                 }
             }
 
